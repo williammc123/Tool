@@ -1,5 +1,5 @@
   $(".btn-controller").click(function () {
-            var idSolicitacao = $(this).attr("data-id");
+            var id = $(this).attr("data-id");
             $.ajax({
                 url: '@Url.Action("Action", "Controller")',
                 datatype: 'json',
